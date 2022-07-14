@@ -1,0 +1,26 @@
+Cara menjalankan Laravel Server
+- php artisan serve
+
+membuat controller :
+php artisan make:controller NamaController
+
+nama database :
+    backend_flutter
+
+buat migration :
+    php artisan make:migration create_users_table
+
+buat model, controller, migration :
+    php artisan make:model NamaModel
+    php artisan make:controller NamaController
+    php artisan make:migration create_users_table
+
+    php artisan make:model Product -m -c -r
+    php artisan make:model Product -mcr
+    php artisan make:model Product -m
+
+untuk menjalankan migration :
+    setting .env database
+    php artisan migrate
+
+
